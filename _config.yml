@@ -1,11 +1,10 @@
-title: "YOUR NAME"
+title: "Your Name"
 description: "Technical writing portfolio"
 timezone: Asia/Kolkata
 
-# For a user site repo named YOUR_GITHUB_USERNAME.github.io, keep:
-# baseurl: ""
-# For a project site repo named e.g. portfolio, set:
-# baseurl: "/portfolio"
+# IMPORTANT:
+# For user site: baseurl: ""
+# For project site: baseurl: "/portfolio"
 url: "https://YOUR_GITHUB_USERNAME.github.io"
 baseurl: ""
 
@@ -13,7 +12,6 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
-  - jekyll-remote-theme
 
 minimal_mistakes_skin: "air"   # try: "default", "air", "contrast", "dark"
 
