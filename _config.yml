@@ -1,3 +1,38 @@
-title: "Abhishek Katta"
+title: "YOUR NAME"
 description: "Technical writing portfolio"
-theme: minima
+timezone: Asia/Kolkata
+
+# For a user site repo named YOUR_GITHUB_USERNAME.github.io, keep:
+# baseurl: ""
+# For a project site repo named e.g. portfolio, set:
+# baseurl: "/portfolio"
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+minimal_mistakes_skin: "air"   # try: "default", "air", "contrast", "dark"
+
+search: true
+breadcrumbs: true
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:path/
+  samples:
+    output: true
+    permalink: /samples/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true

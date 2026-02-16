@@ -1,20 +1,21 @@
 ---
-layout: default
-title: Abhishek Katta — Technical Writing Portfolio
+layout: splash
+title: "YOUR NAME"
+excerpt: "Technical Writer / Information Developer — I turn complex systems into clear, usable docs."
+header:
+  overlay_filter: "0.15"
+  overlay_image: /assets/hero.svg
 ---
 
-# Abhishek Katta
-Technical Writer / Information Developer.
-
 ## Featured work
-- [API Documentation: Example Project](./samples/api-docs/)
-- [Case Study: Self-serve Help Redesign](./case-studies/self-serve-redesign/)
-- [Writing Samples (PDF)](./assets/AbhishekKatta_WritingSamples.pdf)
+- **Case study:** [Self-serve help redesign](/case-studies/self-serve-help-redesign/)
+- **Sample:** [API documentation sample](/samples/api-documentation-sample/)
+- **PDF portfolio:** Add your PDF to `/assets/` and link it here.
 
-## About
-A short bio + what roles you want + your tool stack.
+## What I’m strong at
+- Information architecture, topic-based writing, UX writing for docs
+- Docs-as-code workflows (PR reviews, Markdown, Git)
+- Measuring doc impact (deflection, findability, adoption)
 
-## Contact
-- LinkedIn: …
-- Email: …
-- GitHub: …
+## Tools
+Markdown • Git • (Add your tools here)
